@@ -1,0 +1,53 @@
+/* custom.css */
+
+/* Body background and font */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card shadow and hover effect */
+.card {
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1, h2 {
+  color: #343a40;
+}
+
+/* Form inputs */
+.form-control {
+  border-radius: 0.25rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:hover {
+  background-color: #0053ba;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #218838;
+}
+
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+
+/* Toast container positioning */
+#toast-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1060;
+}
